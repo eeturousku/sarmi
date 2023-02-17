@@ -84,7 +84,7 @@ loader(messageDiv);
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    prompt: `you are a film director. write a directors treatment based on this brief: "` + data.get('prompt') + `"`
+    prompt: `kirjoita tämä asia uudelleen toisin sanoin: "` + data.get('prompt') + `"`
   })
 })
 
