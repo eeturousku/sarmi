@@ -84,7 +84,7 @@ loader(messageDiv);
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    prompt: data.get('prompt')
+    prompt: `you are a film director. write a directors treatment based on this brief: "` + data.get('prompt') + `"`
   })
 })
 
